@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Figtree";
+  font-weight: 400; /* Regular weight */
+  src: url("./assets/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-weight: 600; /* SemiBold */
+  src: url("./assets/static/Figtree-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-weight: 800; /* ExtraBold */
+  src: url("./assets/static/Figtree-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-style: italic;
+  src: url("./assets/Figtree-Italic-VariableFont_wght.ttf") format("truetype");
+}
