@@ -7,7 +7,7 @@ function TextHighlight({ text }: { text: string }) {
   return (
     <button
       className={`w-72 h-11 ${
-        isHovered ? "text-[#333333]" : "text-[#F5D04E]"
+        isHovered ? "text-[#F5D04E]" : "text-[#333333]"
       } rounded-xl font-extrabold text-start text-xl`}
       onMouseEnter={handleMouse}
       onMouseLeave={handleMouse}
